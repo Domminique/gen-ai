@@ -23,9 +23,12 @@ The app integrates seamlessly with Atlassian's Jira using the Forge platform to 
 
 **Potential Impact:**
 The AI-Driven Agile Scrum Master aims to significantly improve the developer experience by reducing manual effort, improving sprint planning, and enhancing collaboration. It helps teams deliver high-quality software more efficiently and consistently.
-<img src="./genAI1.png">
 
 ## How we built it
+
+<img src="./genAI1.png">
+
+
 1. **Project Setup:**
    - We created a new GCP project and set up billing.
 The App was built using The Forge CLI that made it very easy to hit the ground running, we set up our Linux development environment which required setting up docker , nvm and the latest verssion of Node.Js, we then set up the env variables required by Forge and used react to help us accelerate the work .
