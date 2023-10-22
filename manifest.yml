@@ -1,0 +1,20 @@
+modules:
+  jira:issuePanel:
+    - key: gen-ai-hello-world-panel
+      resource: main
+      resolver:
+        function: resolver
+      viewportSize: medium
+      title: gen-ai
+      icon: https://developer.atlassian.com/platform/forge/images/issue-panel-icon.svg
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+permissions:
+  scopes:
+    - read:jira-work
+app:
+  id: ari:cloud:ecosystem::app/a3115e07-f129-4b96-8d45-010b4ce4bc6a

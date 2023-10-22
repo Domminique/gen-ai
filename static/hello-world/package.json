@@ -1,0 +1,39 @@
+{
+  "name": "jira-issue-panel-custom-ui-static",
+  "version": "0.2.8",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@atlaskit/button": "^16.10.2",
+    "@atlaskit/checkbox": "^12.6.11",
+    "@atlaskit/css-reset": "^6.5.4",
+    "@atlaskit/form": "^8.11.13",
+    "@atlaskit/modal-dialog": "^12.8.3",
+    "@atlaskit/radio": "^5.6.10",
+    "@atlaskit/select": "^16.7.3",
+    "@atlaskit/textfield": "^5.6.8",
+    "@forge/bridge": "3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
