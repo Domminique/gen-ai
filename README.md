@@ -1,5 +1,5 @@
 # Masterika
-
+<img src="./genAI2.png">
 ## Inspiration
 Most software projects fail or do not launch on time because the team started trashing very later-on in the project phase instead of doing it earlier on, this has has affected our own software development process at our start-up , we are inspired by the new AI tools now available to help  monitor the progress of each task and story in real-time, providing automated updates to the team and stakeholders. We thought, "If only we have a solution to identify bottlenecks and suggest actions to overcome them, it would be really nice", so we build **scrumasterika**  
 ## What it does
@@ -21,6 +21,8 @@ The app integrates seamlessly with Atlassian's Jira using the Forge platform to 
 
 **Potential Impact:**
 The AI-Driven Agile Scrum Master aims to significantly improve the developer experience by reducing manual effort, improving sprint planning, and enhancing collaboration. It helps teams deliver high-quality software more efficiently and consistently.
+<img src="./genAI1.png">
+
 ## How we built it
 1. **Project Setup:**
    - We created a new GCP project and set up billing.
@@ -62,6 +64,8 @@ We subscribe to these events in DataFlow CDC job, so that when we reaceive a cha
 12. **Documentation and Storytelling:**
     - Created comprehensive documentation explaining how your application uses AI and GCP. This was  important for the storytelling prize.
 
+
+
 ## Challenges we ran into
 **Time was a factor** , My team-mate Christine and I are both professionals and working full-time and in different location .I live in the city while she is currently in the country side, so finding time to Google meet  for daily stand-was really hard.
 ## Accomplishments that we're proud of
@@ -78,7 +82,7 @@ We learnt to call a Jira API and  how to make API calls to the Jira REST API, th
 3. **Testing and Validation:**
     - Thoroughly test our application with real-world data and scenarios to validate its performance.
 
-
+<img src="./genAI.png">
 This project contains a Forge app written in Javascript that displays `Hello World!` in a Jira issue panel. 
 
 See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
