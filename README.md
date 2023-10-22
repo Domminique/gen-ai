@@ -1,6 +1,8 @@
 # Masterika
 <img src="./genAI2.png">
+
 ## Inspiration
+
 Most software projects fail or do not launch on time because the team started trashing very later-on in the project phase instead of doing it earlier on, this has has affected our own software development process at our start-up , we are inspired by the new AI tools now available to help  monitor the progress of each task and story in real-time, providing automated updates to the team and stakeholders. We thought, "If only we have a solution to identify bottlenecks and suggest actions to overcome them, it would be really nice", so we build **scrumasterika**  
 ## What it does
 1. **Automated Sprint Planning:** The app uses natural language processing to analyze user stories and automatically suggests sprint planning, including story points and assignment of tasks to team members.
